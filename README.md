@@ -9,12 +9,21 @@
 - The `curlscript.sh` will simply curl all the the live subdomains and keep the curled domains in a `subdomain.txt` file in output directory
 
 ## Usage
-To find subdomains of multiple top level domains:
 ```
-cat top-level-domain.txt | ./myfindomain.sh
+git clone https://github.com/sahildari/tools
+
+cd tools
+
+chmod +x *.sh
 ```
 
-To curl all the we subdomains so that after that you don't have to visit every single site. Just use the grep command to see if you can find anything intersting
+
+### To find subdomains of multiple top level domains:
+```
+cat top-level-domain.txt | bash myfindomain.sh
+```
+
+### To curl all the we subdomains so that after that you don't have to visit every single site. Just use the grep command to see if you can find anything intersting
 ```
 cat alive.txt| ./curlscript.sh
 ```
