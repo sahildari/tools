@@ -27,3 +27,8 @@ cat top-level-domain.txt | bash myfindomain.sh
 ```
 cat alive.txt| ./curlscript.sh
 ```
+## Acknowledgements
+I have created my tools using opensource community tools
+
+> - [CURL](https://github.com/curl/curl)
+> - [FINDOMAIN](https://github.com/Findomain/)
