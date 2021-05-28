@@ -27,6 +27,16 @@ cat top-level-domain.txt | bash myfindomain.sh
 ```
 cat alive.txt| ./curlscript.sh
 ```
+
+## Example for Manual searching :
+
+```
+grep -irEn '<title>(.*)</title>' 
+```
+To get the titles and checking out the webpages that interests you
+
+Happy Hacking!
+
 ## Acknowledgements
 I have created my tools using opensource community tools
 
